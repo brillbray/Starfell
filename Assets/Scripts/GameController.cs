@@ -1,42 +1,44 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
     public StoryScene curScene;
     public DialogueType dialogPanel;
-    // public CinematicController gOSwitchCanvas;
-
+    public NPC npc;
+    public GameObject showingPressEtoExitDialogue;
     public SwitchScreen switchScrn;
+    private int sentenceIDX = -1;
     void Start()
     {
         dialogPanel.PlayScene(curScene);
     }
 
-
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if(npc.isInDialog)
         {
-            if (dialogPanel.IsCompleted())
+            if (Input.GetKey(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
-                if (dialogPanel.IsLastSentence())
+                if (dialogPanel.IsCompleted())
                 {
-                    curScene = curScene.nextScene;
-                    dialogPanel.PlayScene(curScene);
-                }
-                else
-                {
-                    dialogPanel.PlayNextSentence();
                     if (dialogPanel.IsLastSentence())
                     {
-                        switchScrn.SwitchSceneName();
+                        dialogPanel.PlayScene(curScene);
+                    }
+                    else
+                    {
+                        ++sentenceIDX;
+                        dialogPanel.PlayNextSentence();
+                        if(dialogPanel.IsLastSentence())
+                        {
+                            dialogPanel.DisableClick();
+                            showingPressEtoExitDialogue.SetActive(true);
+                        }
                     }
                 }
-
             }
-            
+        }else{
+            AudioManager.Instance.mscSource.volume = 0.2f;
         }
     }
 }

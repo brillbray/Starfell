@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 5611340418982528213}
   - component: {fileID: 4204350957369021305}
   - component: {fileID: 2301197867540720129}
-  - component: {fileID: 5556064247636362665}
+  - component: {fileID: 4266903630074137025}
+  - component: {fileID: 7741959830120192016}
   - component: {fileID: 5964377275506179592}
   - component: {fileID: 3865010930058647542}
   m_Layer: 0
@@ -152,7 +153,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0070447624, y: -0.5471426}
+  m_Offset: {x: 0.0070447847, y: -0.33729818}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -162,7 +163,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.5198714, y: 0.19617772}
+  m_Size: {x: 0.444448, y: 0.40845197}
   m_EdgeRadius: 0
 --- !u!114 &2301197867540720129
 MonoBehaviour:
@@ -179,7 +180,7 @@ MonoBehaviour:
   movSpeed: 8
   charbody: {fileID: 5611340418982528213}
   isMovementEnabled: 1
---- !u!95 &5556064247636362665
+--- !u!95 &4266903630074137025
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -189,7 +190,7 @@ Animator:
   m_GameObject: {fileID: 4093024704637411016}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f674e4f0e82b86f41b6d697c7cc12c49, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4cf6d23e773a1da41b8522a049ce35e7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -201,6 +202,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7741959830120192016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093024704637411016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eca5aec9b0698641a53ae780f848ecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 4266903630074137025}
 --- !u!20 &5964377275506179592
 Camera:
   m_ObjectHideFlags: 0

@@ -143,7 +143,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chibi_mc_sheet_0
+      name: chibi_mc_sheet_Front
       rect:
         serializedVersion: 2
         x: 0
@@ -151,7 +151,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_1
+      name: chibi_mc_sheet_Front2
       rect:
         serializedVersion: 2
         x: 16
@@ -172,7 +172,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_2
+      name: chibi_mc_sheet_Front3
       rect:
         serializedVersion: 2
         x: 32
@@ -193,7 +193,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,7 +206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_3
+      name: chibi_mc_sheet_Front4
       rect:
         serializedVersion: 2
         x: 48
@@ -214,7 +214,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_8
+      name: chibi_mc_sheet_Back
       rect:
         serializedVersion: 2
         x: 0
@@ -235,7 +235,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -248,7 +248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_9
+      name: chibi_mc_sheet_Back2
       rect:
         serializedVersion: 2
         x: 16
@@ -256,7 +256,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -269,7 +269,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_10
+      name: chibi_mc_sheet_Back3
       rect:
         serializedVersion: 2
         x: 32
@@ -277,7 +277,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,7 +290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_11
+      name: chibi_mc_sheet_Back4
       rect:
         serializedVersion: 2
         x: 48
@@ -298,7 +298,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -311,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_12
+      name: chibi_mc_sheet_Right
       rect:
         serializedVersion: 2
         x: 0
@@ -319,7 +319,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -332,7 +332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_13
+      name: chibi_mc_sheet_Right2
       rect:
         serializedVersion: 2
         x: 16
@@ -340,7 +340,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -353,7 +353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_14
+      name: chibi_mc_sheet_Right3
       rect:
         serializedVersion: 2
         x: 32
@@ -361,7 +361,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -374,7 +374,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chibi_mc_sheet_15
+      name: chibi_mc_sheet_Right4
       rect:
         serializedVersion: 2
         x: 48
@@ -382,7 +382,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -395,7 +395,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: left1
+      name: chibi_mc_sheet_Left
       rect:
         serializedVersion: 2
         x: 0
@@ -403,7 +403,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -416,7 +416,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: left2
+      name: chibi_mc_sheet_Left2
       rect:
         serializedVersion: 2
         x: 16
@@ -424,7 +424,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -437,7 +437,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: left3
+      name: chibi_mc_sheet_Left3
       rect:
         serializedVersion: 2
         x: 32
@@ -445,7 +445,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -458,7 +458,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: left4
+      name: chibi_mc_sheet_Left4
       rect:
         serializedVersion: 2
         x: 48
@@ -466,7 +466,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -489,22 +489,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      chibi_mc_sheet_0: -1486584008
-      chibi_mc_sheet_1: -257561955
-      chibi_mc_sheet_10: 1160886982
-      chibi_mc_sheet_11: -990733907
-      chibi_mc_sheet_12: -129386474
-      chibi_mc_sheet_13: -1798871191
-      chibi_mc_sheet_14: -1497324184
-      chibi_mc_sheet_15: 1937871825
-      chibi_mc_sheet_2: 1223268545
-      chibi_mc_sheet_3: -518392022
-      chibi_mc_sheet_8: 875260809
-      chibi_mc_sheet_9: -1010936281
-      left1: -1791186538
-      left2: 592109473
-      left3: 673693236
-      left4: -1242788034
+      chibi_mc_sheet_Back: 875260809
+      chibi_mc_sheet_Back2: -1010936281
+      chibi_mc_sheet_Back3: 1160886982
+      chibi_mc_sheet_Back4: -990733907
+      chibi_mc_sheet_Front: -1486584008
+      chibi_mc_sheet_Front2: -257561955
+      chibi_mc_sheet_Front3: 1223268545
+      chibi_mc_sheet_Front4: -518392022
+      chibi_mc_sheet_Left: -1791186538
+      chibi_mc_sheet_Left2: 592109473
+      chibi_mc_sheet_Left3: 673693236
+      chibi_mc_sheet_Left4: -1242788034
+      chibi_mc_sheet_Right: -129386474
+      chibi_mc_sheet_Right2: -1798871191
+      chibi_mc_sheet_Right3: -1497324184
+      chibi_mc_sheet_Right4: 1937871825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

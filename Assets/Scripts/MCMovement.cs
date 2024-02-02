@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
-public class MCMovement : MonoBehaviour
+public class McMovement : MonoBehaviour
 {
-    public float movSpeed = 7f;
+    public float movSpeed = 5.5f;
     public Rigidbody2D charbody;
     private Vector2 velocity;
     private Vector2 InputMovement;

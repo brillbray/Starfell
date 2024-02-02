@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Robin
   textColor: {r: 1, g: 1, b: 1, a: 1}
+  sprites:
+  - {fileID: 3804419739914296938, guid: 7f4046933e4e4e043ab340706aedd725, type: 3}
+  prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b, type: 3}

@@ -1,17 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 public class NPC : MonoBehaviour
 {
     public GameObject dialogPanel;
     public GameObject cue;
     public DialogueType dialogueTyping;
     public StoryScene curScene;
-
     public float wordSpeed;
     public bool playerCloseNPC;
-    private bool isInDialog;
+    public bool isInDialog;
+    
 
     void Update()
     {
@@ -20,15 +17,21 @@ public class NPC : MonoBehaviour
             if (isInDialog)
             {
                 ExitDialog();
+                AudioManager.Instance.sfxSource.Pause();
+                dialogueTyping.EnableClick();
             }
             else
             {
+                AudioManager.Instance.sfxSource.UnPause();
                 EnterDialog();
             }
+        }else if(!playerCloseNPC && isInDialog){
+            ExitDialog();
+            AudioManager.Instance.sfxSource.Pause();
         }
     }
 
-    private void EnterDialog()
+    public void EnterDialog()
     {
         dialogPanel.SetActive(true);
         dialogueTyping.PlayScene(curScene);
@@ -36,7 +39,7 @@ public class NPC : MonoBehaviour
         isInDialog = true;
     }
 
-    private void ExitDialog()
+    public void ExitDialog()
     {
         dialogPanel.SetActive(false);
         UnfreezePlayerMovement();
@@ -45,7 +48,7 @@ public class NPC : MonoBehaviour
   
     private void FreezePlayerMovement()
     {
-        MCMovement mcMovement = FindFirstObjectByType<MCMovement>();
+        McMovement mcMovement = FindFirstObjectByType<McMovement>();
 
         if (mcMovement != null)
         {
@@ -55,14 +58,15 @@ public class NPC : MonoBehaviour
 
     private void UnfreezePlayerMovement()
     {
-        MCMovement mcMovement = FindFirstObjectByType<MCMovement>();
+        McMovement mcMovement = FindFirstObjectByType<McMovement>();
 
         if (mcMovement != null)
         {
             mcMovement.SetMovementEnabled(true);
         }
     }
-    private void OnTriggerEnter2D(Collider2D other)
+
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {

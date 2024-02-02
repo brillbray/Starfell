@@ -15,39 +15,137 @@ MonoBehaviour:
   sentences:
   - text: "It\u2019s already morning"
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: 'I still remember what i saw last night '
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: What was that thing and why was it glowing?
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: 'I should go and check it out. '
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
-  - text: ' Oh, are you awake big brother? '
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
+  - text: Oh, are you awake big brother?
     speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: 802798003719151306, guid: 571191e000fbe8446bdec77bc1086a7d, type: 3}
   - text: Huh?
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
-  - text: Good morning
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
+  - text: ' Good morning '
     speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: 802798003719151306, guid: 571191e000fbe8446bdec77bc1086a7d, type: 3}
   - text: "You\u2019re up early"
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: 'Yes, i heard a strange object fell near the village last night '
     speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: 802798003719151306, guid: 571191e000fbe8446bdec77bc1086a7d, type: 3}
   - text: 'And it looks like its affecting the people around it '
     speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 802798003719151306, guid: 571191e000fbe8446bdec77bc1086a7d, type: 3}
   - text: ' The doctors are trying to handle it. '
     speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 802798003719151306, guid: 571191e000fbe8446bdec77bc1086a7d, type: 3}
   - text: I should go and help
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: 'Are you sure big brother? '
     speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: 802798003719151306, guid: 571191e000fbe8446bdec77bc1086a7d, type: 3}
   - text: 'Yes, im sure they need help '
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: "Ok, but promise me you\u2019ll be safe."
     speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: 802798003719151306, guid: 571191e000fbe8446bdec77bc1086a7d, type: 3}
   - text: I promise
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: Come home before dinner
     speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0390b7e22b0e5024b942f37df327d60e, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: 802798003719151306, guid: 571191e000fbe8446bdec77bc1086a7d, type: 3}
   - text: Ok
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
-  background: {fileID: 0}
-  nextScene: {fileID: 0}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}

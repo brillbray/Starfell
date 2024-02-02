@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Rona
   textColor: {r: 1, g: 1, b: 1, a: 1}
+  sprites:
+  - {fileID: -2602804996014823410, guid: 1df230623d26240478655cefe08150a6, type: 3}
+  prefab: {fileID: 802798003719151306, guid: 571191e000fbe8446bdec77bc1086a7d, type: 3}

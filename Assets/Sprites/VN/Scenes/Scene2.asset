@@ -15,22 +15,129 @@ MonoBehaviour:
   sentences:
   - text: Doctor
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: Hey
     speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: 9145549177353858383, guid: dc21e522427873743aea296771cf97bc,
+      type: 3}
   - text: How's the situation?
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: Not good.
     speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: 9145549177353858383, guid: dc21e522427873743aea296771cf97bc,
+      type: 3}
   - text: "This object is releasing a strange smell that's making people do things
       to the point where they\u2019ve gone mad"
     speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 9145549177353858383, guid: dc21e522427873743aea296771cf97bc,
+      type: 3}
   - text: "Don\u2019t go near it,  You\u2019ll inhale the smell "
     speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 9145549177353858383, guid: dc21e522427873743aea296771cf97bc,
+      type: 3}
   - text: 'Oh sorry, i forgot you suffer from anosmia, still be careful '
     speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
-  - text: " No matter what, you\u2019ll still breathe it in"
+    actions:
+    - speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 9145549177353858383, guid: dc21e522427873743aea296771cf97bc,
+      type: 3}
+  - text: "No matter what, you\u2019ll still breathe it in"
     speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
-  - text: "\u201Csalah satu warga bertingkah aneh dan mulai menyerang orang lain\u201D "
+    actions:
+    - speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 9145549177353858383, guid: dc21e522427873743aea296771cf97bc,
+      type: 3}
+  - text: 'One resident acted strangely and started attacking other people  '
     speaker: {fileID: 11400000, guid: f5fb2a979f610bd42b26009fadd17469, type: 2}
-  background: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: f5a8dc07a9e1459458ab4e202abb4bc6, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f5fb2a979f610bd42b26009fadd17469, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 0}
+  - text: 'This is what I mean, that person is going crazy. '
+    speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: -7878526130334283119, guid: dc21e522427873743aea296771cf97bc,
+      type: 3}
+  - text: This is not good
+    speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
+  - text: "Doc, bring the others to a safe place. i\u2019ll handle this one"
+    speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
+  - text: 'Are you sure Robin? '
+    speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: 9145549177353858383, guid: dc21e522427873743aea296771cf97bc,
+      type: 3}
+  - text: Yes
+    speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
+      spriteIDX: 0
+      actionType: 1
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
+  - text: Ok, I'll let you handle them
+    speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+      spriteIDX: 0
+      actionType: 2
+    prefab: {fileID: 9145549177353858383, guid: dc21e522427873743aea296771cf97bc,
+      type: 3}
+  - text: Be careful
+    speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2be118b492c380142902c06d76d49372, type: 2}
+      spriteIDX: 0
+      actionType: 0
+    prefab: {fileID: 9145549177353858383, guid: dc21e522427873743aea296771cf97bc,
+      type: 3}

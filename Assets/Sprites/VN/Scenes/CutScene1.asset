@@ -15,16 +15,22 @@ MonoBehaviour:
   sentences:
   - text: What is that?
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
-    speakerSprite: {fileID: 0}
+    actions: []
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: A meteor?
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
-    speakerSprite: {fileID: 0}
+    actions: []
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: "It doesn\u2019t look that far from the village, I should go and check
       but it\u2019s already late."
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
-    speakerSprite: {fileID: 0}
+    actions: []
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
   - text: " I\u2019ll just go tomorrow"
     speaker: {fileID: 11400000, guid: cd71d901bf0fc194c9bfd98ed04e128a, type: 2}
-    speakerSprite: {fileID: 0}
-  background: {fileID: 0}
-  nextScene: {fileID: 0}
+    actions: []
+    prefab: {fileID: 7400791113647082778, guid: f717f14bd6be0904c9f5e2bc0fe4814b,
+      type: 3}
